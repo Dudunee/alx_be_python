@@ -1,4 +1,4 @@
-def perform_operation(num1: float, num2: float, operation: str) -> float:
+def perform_operation(num1, num2, operation):
     if operation == "add":
         return num1 + num2
     elif operation == "subtract":
@@ -12,7 +12,3 @@ def perform_operation(num1: float, num2: float, operation: str) -> float:
             print("cannot devide by zero")
     else:
         print("Invalid operation")
-    
-
-
-
